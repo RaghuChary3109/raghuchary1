@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+	<test name="HRM APP TEST CASES">
+	
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+		<classes>
+			<class name="(default package).AdminPageTest"></class>
+			<class name="(default package).EmployeePageTest"></class>
+			<class name="(default package).LoginPageTest"></class>
+			<class name="(default package).Personal_details_PageTEST"></class>
+				
+		</classes>
+	</test>
+</suite>
